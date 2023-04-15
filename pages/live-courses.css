@@ -1,0 +1,109 @@
+:root{
+    --main-color:#1515a6;
+    --second-color:#244398;
+    --main-transition:0.5s;
+    --third-color:rgb(67 186 253);
+}
+.live-courses,.registered-courses{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    text-align: center;
+    color: var(--second-color);
+}
+.heading{
+    text-align: center;
+}
+.table {
+    border-bottom-width: 7px;
+    border-spacing: 40px; /* adjust the value to your desired spacing */
+    font-weight: bold !important;
+    border-spacing: 20px !important;
+
+  }
+  .table>:not(:first-child) {
+    border-top: 4px solid var(--second-color) !important;
+
+}
+
+td {
+    padding-top: 50px !important;
+   
+}
+th{
+    padding-bottom: 25px !important;
+    font-size: 20px !important;
+    color: #000000a8 !important ;
+}
+
+a.d-flex {
+    text-decoration: none;
+}
+.live-courses td .course-info,.registered-courses td .course-info{
+    display: flex;
+    justify-content: end;
+}
+.live-courses td .course-info,.registered-courses td .course-info a{
+    text-decoration: none;
+}
+.live-courses td .course-info img,.registered-courses td .course-info img{
+    width: 100px;
+    margin-left: 15px;
+}
+.live-courses p,.registered-courses p{
+    font-size: 17px;
+    color: #0000006b;;
+}
+.live-courses h3,.registered-courses h3{
+    font-size: 25px;
+    color: #000000b3;
+    margin-top: 20px;
+}
+
+
+.our-table,.registered-courses {
+    color: var(--second-color);
+    margin-top: 100px;
+    text-align: end;
+}
+.our-table a{
+    text-decoration: none;
+    color: white;
+}
+.our-table .btn-td{
+    background-color: var(--second-color);
+    color: white;
+    height: 45px;
+    width: 134px;
+    border-radius: 10px;
+    border: none;
+    transition: var(--main-transition);
+}
+.btn-td:hover{
+    background-color: transparent;
+    border: 1px solid var(--second-color);
+    color: var(--second-color);
+}
+.course-info a{
+    text-decoration: none;
+}
+@media (max-width:1000px) {
+    .live-courses .live-courses-content , .registered-courses .registered-courses-content{
+        display: none;
+    }
+    .live-courses .cards,.registered-courses .cards{
+        margin-top: 100px;
+        
+    }
+    .live-courses .cards .card,.registered-courses .cards .card{
+        margin: auto;
+        text-align: end;
+        margin-bottom: 80px;
+    }
+    .card-body {
+        text-align: center;
+    }
+    p.card-text {
+        direction: rtl;
+    }
+
+}

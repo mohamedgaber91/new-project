@@ -1,0 +1,153 @@
+:root{
+    --main-color:#1515a6;
+    --second-color:#244398;
+    --main-transition:0.5s;
+    --third-color:rgb(67 186 253);
+}
+.header{
+    height: 200px;
+}
+.privet-cousrse{
+    margin-top: 70px;
+    padding-bottom: 150px;
+}
+.privet-cousrse h1{
+    text-align: end;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.695);
+    font-weight: bold;
+}
+.course-info img{
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+.btn-td{
+    background-color: var(--second-color);
+    color: white;
+    height: 45px;
+    width: 134px;
+    border-radius: 10px;
+    border: none;
+    transition: var(--main-transition);
+}
+a.d-flex {
+    text-decoration: none;
+    justify-content: end;
+    direction: ltr;
+    color: black;
+}
+.privet-course-content{
+    margin-top: 30px;
+}
+.two-boxs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+@media (max-width:1000px) {
+    .two-boxs{
+        display: block;
+    }
+}
+.price-box {
+    text-align: end;
+}
+.our-table{
+    border-bottom: 2px solid var(--third-color);
+    
+}
+.payment-options {
+    padding: 17px;
+    padding-left: 62px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: end
+  }
+  .payment-options h2 {
+    margin-bottom: 44px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    color: #000000ab;
+  }
+  .payment-options ul {
+    list-style: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  .payment-options li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    
+  }
+  .payment-options li img{
+    width: 40px;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  .payment-options li p{
+    display: inline;
+    direction: rtl;
+  }
+  .payment-options input[type="radio"] {
+    display: inline;
+  }
+  .payment-options input[type="radio"] + label {
+    cursor: pointer;
+  }
+ 
+  .payment-options input[type="radio"]:checked + label {
+    border: 2px solid #007bff;
+  }
+  .payment-options #pay-now {
+    background-color: var(--second-color);
+    color: white;
+    border: none;
+    border-radius: 39px;
+    cursor: pointer;
+    height: 39px;
+    margin-top: 20px;
+    width: 200px;
+    font-size: 16px;
+    transition: var(--main-transition);
+  }
+  .payment-options #pay-now:hover{
+    background-color: transparent;
+    border: 1px solid var(--second-color);
+    color: var(--second-color);
+  }
+  
+  @media (max-width:1000px) {
+    .privet-cousrse h1{
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .privet-cousrse .privet-course-content .box{
+      display: none;
+    }
+    .card{
+      margin: auto;
+      text-align: end;
+      margin-bottom: 80px;
+    }
+    .card-body {
+        text-align: center;
+    }
+    p.card-text {
+        direction: rtl;
+    }
+    .two-boxs h2{
+      text-align: center;
+    }
+    .two-boxs .price-box .table td {
+      direction: rtl !important;
+      padding-top: 13px !important;
+      padding: 15px !important;
+  }
+  }

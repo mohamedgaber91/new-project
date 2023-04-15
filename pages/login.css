@@ -1,0 +1,54 @@
+:root{
+    --main-color:#1515a6;
+    --second-color:#244398;
+    --main-transition:0.5s;
+    --third-color:rgb(67 186 253);
+}
+.header{
+    height: 200px;
+}
+.form{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    background-image: url("../imges/backg-light.png");
+    background-size: cover;
+}
+.form h1{
+    color: var(--second-color);
+    text-align: center;
+    margin-bottom: 70px;
+}
+.form .form-content{
+    background-color: #d3d3d34d;
+    border-radius: 15px;
+    margin-top: 78px;
+    padding: 40px;
+    width: 70%;
+    color: #00000085;
+    margin: auto;
+}
+@media (max-width:1000px) {
+    .form .form-content{
+        width: 100%;
+    }
+}
+.form .form-content form .login-btn{
+    width: 140px;
+    margin-top: 20px;
+    white-space: nowrap;
+    transition: var(--main-transition);
+    height: 39px;
+    background-color: var(--second-color);
+    color: white;
+    border-radius: 22px;
+    border: none;
+}
+.form .form-content form .login-btn:hover{
+    background-color: transparent;
+    color: var(--second-color);
+    border: 1px solid var(--second-color);
+}
+.form .form-content form h6 a{
+    color: #00000085;
+    text-decoration: none;
+}
