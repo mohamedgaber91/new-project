@@ -438,6 +438,10 @@ hr.hr-info {
     #select {
         display: none;
     }
+    #search {
+        font-size: 20px;
+        display: none;
+    }
     /* navbar style */
     .navbar-content{
         display: flex;
