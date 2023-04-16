@@ -171,12 +171,12 @@ color:#0000008f ;
     }
 }
 .sections .section-content .section{
-    border: 1px solid black;
+    border: 1px solid #fefefe;
     text-align: center;
     height: 300px;
+    border-radius: 10px;
     background-color: #d3d3d326;
     padding-top: 20px;
-    box-shadow: 1px 0px 0px #244398b3;
     cursor: pointer;
     transition: var(--main-transition);
 }
@@ -450,40 +450,73 @@ hr.hr-info {
         flex-wrap: wrap;
         padding: 9px;
     }
+    .navbar-content .menu{
+
+    }
+    .navbar-content .menu i{
+        font-size: 23px;
+        color: #1515a6;
+    }
     .our-nav .navbar-content .buttons,.our-nav .navbar-content .links{
         display: none;
     }
+   
     
     .our-nav .navbar-content .languages #nav-select{
         border: none;
-        width: 100px;
+        width: 91px;
         background-color: transparent;
         padding: 4px;
         color: black;
-        font-size: 23px;
+        font-size: 21px;
         text-transform: capitalize;
     }
+    /* style for box setting */
     .btns-home{
-        margin-top: 30px;
-        margin-bottom: 30px;
         display: flex;
-        align-items: center;
-        justify-content: space-evenly;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: -250px; /* تحديد موقع القائمة من الجانب الأيسر */
+        height: 384px;
+        width: 250px;
+        background-color: #1515a6;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        overflow-x: hidden;
+        transition: 0.5s;
+        
+    }
+    
+    .btns-home .close{
+        background-color: var(--third-color);
+        opacity: 1 !important;
+        padding: 12px;
+    }
+    .btns-home .btn1,.btns-home .btn2{
+        margin: 20px;
+        background-color: white;
+        color: var(--second-color);
+    }
+    .btns-home .btn1 a,.btns-home .btn2 a{
+        color: var(--second-color);
     }
     img.logo {
-        width: 92px;
+        width: 71px;
     }
     .our-nav .navbar-content .call{
         background-color: var(--third-color);
         color: white;
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         font-size: 23px;
     }
     .our-nav .navbar-content .call i{
-        transform: translate(19px, 14px);
+        transform: translate(14px, 9px);
     }
+    /* end style of box setting */
     /* sections style */
     .sections .section-content .section{
         margin: auto;

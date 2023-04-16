@@ -28,6 +28,7 @@
     width: 134px;
     border-radius: 10px;
     border: none;
+    cursor: auto;
     transition: var(--main-transition);
 }
 a.d-flex {

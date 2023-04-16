@@ -76,13 +76,10 @@ a.d-flex {
     width: 134px;
     border-radius: 10px;
     border: none;
+    cursor: auto;
     transition: var(--main-transition);
 }
-.btn-td:hover{
-    background-color: transparent;
-    border: 1px solid var(--second-color);
-    color: var(--second-color);
-}
+
 .course-info a{
     text-decoration: none;
 }

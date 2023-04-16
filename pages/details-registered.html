@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> تفاصيل الدوره</title>
+    <title> التفاصيل</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;1,300;1,600&display=swap" rel="stylesheet">
@@ -60,6 +60,9 @@
                         <li><a href="../index.html">اتصل بنا</a></li>
                     </ul>
                 </div>
+                <div class="menu d-sm-block d-lg-none" id="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
                 <div class="call  d-sm-block d-lg-none">
                     <i class="fa-solid fa-phone-volume"></i>
                 </div>
@@ -71,8 +74,15 @@
                 </div>
                 
                 <div class="logo">
-                   <img src="../imges/Logo.png" alt="" srcset="" class="logo">
+                <img src="../imges/Logo.png" alt="" srcset="" class="logo">
                 </div>
+            </div>
+            <!-- buttons  appear only in home page -->
+            <div class="buttons d-sm-block d-lg-none mt-sm-5 btns-home" id="setting">
+                <button type="button" class="btn-close btn-close-white m-auto close " id="close" ></button> 
+                <button class="btn2"><a href="./login.html">تسجيل دخول</a></button> 
+                <button class="btn1"><a href="./membership.html">تسجيل عضويه</a></button>
+                <i class="fa-solid fa-magnifying-glass" id="search"></i>
             </div>
         </div>
     </div>
@@ -89,7 +99,7 @@
                 <div class="price-details">
                     <div class="price-box">
                         <h2>السعر 300 ريال</h2>
-                        <a href="./Already-registed.html" > <button class="btn-detail">مشترك بالفعل</button> </a>          
+                        <a href="./already-registed.html" > <button class="btn-detail">شراء الدورة</button> </a>    
                         <table class="table">
                             <tbody>
                             <tr>
@@ -130,7 +140,7 @@
                                 <td class="second">مده</td>
                             </tr>
                             <tr>
-                                <td> 7/3/2023</td>
+                                <td> مسجل بالفعل</td>
                                 <td class="second">:</td>
                                 <td class="second">موعد البدأ</td>
                             </tr>
@@ -138,25 +148,11 @@
                             </tbody>
                         </table>
                     </div>    
-                    <div class="content-box">
-                        <h2>محتويات الدورة</h2>
-                        <ul class="content">
-                            <li><a href=""> الدرس الاول</a></li>
-                            <hr>
-                            <li><a href=""> الدرس الثاني</a></li>
-                            <hr>
-                            <li><a href=""> الدرس الثالث</a></li>
-                            <hr>
-                            <li><a href=""> الدرس الرابع</a></li>
-                            <hr>
-                            <li><a href=""> الدرس الخامس</a></li>
-                            
-                        </ul>
-                    </div>
+                    
                     
                 </div>
                 <div class="details-info">
-                    <img src="../imges/details-info-imge.PNG" alt="" srcset="">
+                    <img src="../imges/already-registed.PNG" alt="" srcset="">
                     <h3>مثال لاسم الدورة هنا</h3>
                     <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل
                         توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعا طبيعيا -إلى حد ما- للأحرف
@@ -217,8 +213,8 @@
                     <h3 >القائمه الرئيسيه</h3>
                     <ul class="d-sm-flex d-lg-block">
                         <li>  <a href="../index.html"><div class="link-icon d-sm-block d-lg-none"><i class="fa-solid fa-house"></i></div>  الرئيسيه</a> </li>
-                        <li><a href="./courses.html"><div class="link-icon d-sm-block d-lg-none"><i class="fa-sharp fa-regular fa-address-card"></i></div>  من نحن</a>   </li>
-                        <li> <a href="../index.html"><div class="link-icon d-sm-block d-lg-none"><i class="fa-brands fa-discourse"></i></div>  الدورات</a> </li>
+                        <li><a href="../index.html"><div class="link-icon d-sm-block d-lg-none"><i class="fa-sharp fa-regular fa-address-card"></i></div>  من نحن</a>   </li>
+                        <li> <a href="./courses.html"><div class="link-icon d-sm-block d-lg-none"><i class="fa-brands fa-discourse"></i></div>  الدورات</a> </li>
                         <li> <a href="../index.html"><div class="link-icon d-sm-block d-lg-none"><i class="fa-solid fa-envelope"></i></div> اتصل بنا</a>   </li>
                     </ul>
                 </div>
@@ -240,10 +236,10 @@
                 <p class="d-sm-block d-lg-none">جميع الحقوق محفوظه بواسطة قادر &copy; 2023</p>
                 <div class="footer-links">
                     <ul >
-                        <li> <a href="../index.html">الرئيسيه</a> </li>
-                        <li><a href="../index.html">من نحن</a>   </li>
-                        <li> <a href="./courses.html">الدورات</a> </li>
-                        <li> <a href="../index.html">اتصل بنا</a>   </li>
+                        <li> <a href="../index.html">اتصل بنا</a> </li>
+                        <li><a href="./courses.html"> الدورات</a>   </li>
+                        <li> <a href="../index.html">  من نحن</a> </li>
+                        <li> <a href="../index.html"> الرئيسيه</a>   </li>
                     </ul>
                     <p>جميع الحقوق محفوظه بواسطة قادر &copy; 2023</p>
                 </div>
@@ -252,5 +248,6 @@
         </div>
     </div>
     <!-- end info footer -->
+    <script src="../js/main.js"></script>
 </body>
 </html>
