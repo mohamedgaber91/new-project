@@ -4,8 +4,10 @@
     --main-transition:0.5s;
     --third-color:rgb(67 186 253);
 }
-.header{
+.header-contact{
     height: 200px;
+    background-image: url("../imges/Slide.png");
+    background-size: cover;
 }
 .social-media{
  text-align: center;
