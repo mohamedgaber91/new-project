@@ -23,7 +23,10 @@ margin-top: 100px;
 .social-media  h3{
     line-height: 2;
     margin-top: 50px;
+    margin-left: 15px;
     color: rgba(0, 0, 0, 0.5);
+    text-align: end;
+    padding-right: 10px;
 }
 .social-media .social-media-content ul {
     display: flex;
