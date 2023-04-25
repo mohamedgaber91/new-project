@@ -19,7 +19,7 @@ body{
     --third-color:rgb(67 186 253);
 }
 .info{
-     background-image: linear-gradient(72deg,#1515a6a8, #244398e3);
+    background-color: #1273a8;
 }
 
 .info-content {
@@ -480,7 +480,7 @@ hr.hr-info {
         left: -250px; /* تحديد موقع القائمة من الجانب الأيسر */
         height: 384px;
         width: 250px;
-        background-color: #1515a6;
+        background-color: #1273a8;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
@@ -546,7 +546,7 @@ hr.hr-info {
     }
     /* footer */
     .footer{
-        background-color: rgb(21 21 166);
+        background-color: #1273a8;
         position: fixed;
         bottom: 0px;
         left: 0;
