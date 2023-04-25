@@ -411,6 +411,7 @@ padding-top: 15px;
     display: flex;
     justify-content: space-between;
     color: var(--second-color);
+    margin-bottom: -23px;
 }
 .footer-info .footer-info-content .footer-links p {
     text-align: end;
@@ -426,6 +427,10 @@ hr.hr-info {
     opacity: 1 !important;
     background-color: var(--second-color);
     border: none;
+}
+.footer-logo {
+    margin-top: 20px;
+    font-size: 25px;
 }
 /* ************************* style of mobile                            ************************************** */
 @media (max-width:1000px) {
@@ -603,6 +608,11 @@ hr.hr-info {
     }
     .footer-logo img {
         width: 141px;
+    }
+    .footer-logo {
+        margin-top: 0;
+        font-size: 25px;
+        white-space: nowrap;
     }
 
 
